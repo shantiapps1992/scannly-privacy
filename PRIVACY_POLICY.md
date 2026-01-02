@@ -28,7 +28,7 @@ All information you enter into Scannly, including:
 
 Scannly requires access to your device's camera to:
 - Scan expiry dates using OCR (Optical Character Recognition)
-- Scan product barcodes
+- Scan product barcodes (may look up product info online via Open Food Facts)
 - Take photos of products
 
 All images captured through the app are processed and stored locally on your device. We do not upload, share, or transmit these images anywhere.
@@ -59,7 +59,7 @@ Scannly uses the following services and technologies:
 - **Google ML Kit Barcode Scanning**: Processes barcodes locally on your device
 
 **Optional Internet Services:**
-- When you scan a barcode, the app may optionally look up product information from a third-party service. Only the barcode number is sent - no personal information, photos, or other data is transmitted. This feature requires an internet connection and can fail if you're offline.
+- **Open Food Facts API**: When you scan a food product barcode, the app may optionally look up product information from Open Food Facts, a free and open database. Only the barcode number is sent - no personal information, photos, or other data is transmitted. This feature requires an internet connection and works for food products only. Data is used under the Open Database License.
 
 **What We DON'T Use:**
 - No analytics or tracking services
@@ -97,7 +97,7 @@ Scannly does not require you to create an account, provide an email address, or 
 If you have any questions or concerns about this Privacy Policy, please contact:
 
 **Developer:** Shanti Barua
-**Email:** [your-email@example.com]
+**Email:** [shantiapps1992@gmail.com]
 **App:** Scannly - Expiry Date Tracker
 
 ## Consent
@@ -111,8 +111,9 @@ By using Scannly, you consent to this Privacy Policy.
 **In short:**
 - ✅ We collect ZERO personal data
 - ✅ Everything is stored locally on your device
-- ⚠️ Internet connection optional (only for barcode product lookup)
+- ⚠️ Internet connection optional (food barcode lookup only)
 - ✅ Barcode lookups send only the barcode number, no personal info
+- ✅ Food product data from Open Food Facts (free & open database)
 - ✅ No tracking or analytics
 - ✅ No third-party cloud services
 - ✅ You have complete control over your data

@@ -59,7 +59,7 @@ Scannly uses the following services and technologies:
 - **Google ML Kit Barcode Scanning**: Processes barcodes locally on your device
 
 **Optional Internet Services:**
-- **UPC Item Database API (api.upcitemdb.com)**: When you scan a barcode, the app may optionally send the barcode number to this third-party service to retrieve product information. This service receives only the barcode number - no personal information, photos, or other data is sent. This feature requires an internet connection and can fail if you're offline.
+- When you scan a barcode, the app may optionally look up product information from a third-party service. Only the barcode number is sent - no personal information, photos, or other data is transmitted. This feature requires an internet connection and can fail if you're offline.
 
 **What We DON'T Use:**
 - No analytics or tracking services

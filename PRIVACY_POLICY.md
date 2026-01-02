@@ -52,13 +52,19 @@ Any sharing of exported data is entirely at your discretion through your device'
 
 ## Third-Party Services
 
-Scannly does not integrate with any third-party analytics, advertising, or tracking services. The app functions entirely offline and does not require an internet connection.
+Scannly uses the following services and technologies:
 
-The app uses the following on-device technologies:
+**On-Device Processing:**
 - **Google ML Kit Text Recognition**: Processes text locally on your device for OCR scanning
 - **Google ML Kit Barcode Scanning**: Processes barcodes locally on your device
 
-No data from these technologies is transmitted off your device.
+**Optional Internet Services:**
+- **UPC Item Database API (api.upcitemdb.com)**: When you scan a barcode, the app may optionally send the barcode number to this third-party service to retrieve product information. This service receives only the barcode number - no personal information, photos, or other data is sent. This feature requires an internet connection and can fail if you're offline.
+
+**What We DON'T Use:**
+- No analytics or tracking services
+- No advertising networks
+- No data collection for marketing purposes
 
 ## Children's Privacy
 
@@ -105,9 +111,10 @@ By using Scannly, you consent to this Privacy Policy.
 **In short:**
 - ✅ We collect ZERO personal data
 - ✅ Everything is stored locally on your device
-- ✅ No internet connection required
+- ⚠️ Internet connection optional (only for barcode product lookup)
+- ✅ Barcode lookups send only the barcode number, no personal info
 - ✅ No tracking or analytics
 - ✅ No third-party cloud services
 - ✅ You have complete control over your data
 
-**Your privacy is 100% protected because we simply don't collect any data.**
+**Your privacy is protected - we don't collect, store, or sell any personal information.**
